@@ -6,14 +6,14 @@
 
 body{
   display: flex;
-  flex-direction: column ;
+  flex-direction: column;
   min-height: 100vh;
   /* background: black;
   color:white */
 }
 header{
   padding: 2rem 1rem;
-  max-width: 800px;
+  max-width: 500px;
   width: 100%;
   margin: 0 auto; 
 }
@@ -22,6 +22,7 @@ header h1{
   font-weight: 300;
   color: gray;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 #newtaskform{
@@ -29,7 +30,6 @@ header h1{
 }
 
 input {
-  appearance: none;
   border: none;
   outline: none;
   background: none;
@@ -42,8 +42,13 @@ input {
   margin-right: 1rem;
   font-family: 1.25rem;
   background: rgb(56, 45, 45);
-  color: aliceblue;
+  color: white;
 }
+
+#newtaskinput::placeholder{
+  color: rgb(236, 195, 195);
+}
+
 
 #sunbmitbtn{
   font-size: 1.25rem;
@@ -59,7 +64,7 @@ input {
 main{
  
   padding: 2rem 2rem;
-  max-width: 800px;
+  max-width: 500px;
   width: 100%;
   margin: 0 auto;
 }
@@ -94,6 +99,7 @@ button{
   border-radius: 10px;
   width: 50px;
   text-align: center;
+  cursor: pointer;
 }
 
 .delete{
