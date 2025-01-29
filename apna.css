@@ -1,0 +1,108 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  color: white;
+}
+
+body{
+  display: flex;
+  flex-direction: column ;
+  min-height: 100vh;
+  /* background: black;
+  color:white */
+}
+header{
+  padding: 2rem 1rem;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto; 
+}
+header h1{
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: gray;
+  margin-bottom: 1rem;
+}
+
+#newtaskform{
+  display: flex ;
+}
+
+input {
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+#newtaskinput{
+  flex: 1 1 0%;
+
+border-radius: 1rem;
+padding: 1rem;
+margin-right: 1rem;
+font-family: 1.25rem;
+background: rgb(56, 45, 45);
+color: aliceblue;
+}
+
+#sunbmitbtn{
+  font-size: 1.25rem;
+  font-weight: 700;
+  background: rgb(36, 36, 74);
+  border-radius: 10px;
+  width: 70px;
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
+}
+
+main{
+  flex: 1 1 0%;
+  padding: 2rem 2rem;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#task-list{
+  padding: 1rem;
+
+}
+
+task-list h2{
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: gray;
+  margin-bottom: 1rem;
+}
+
+
+#tasks .task{
+  display: flex;
+  justify-content: space-between;
+  background: rgb(47, 47, 61);
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+#tasks .task content .text {
+  color: lightblue;
+  font-size: 1.25rem;
+  width: 100%;
+  display: block;
+}
+
+button{
+  padding: 5px 7px;
+  margin-left: 1px;
+  background: rgb(40, 26, 22);
+  color: white;
+  border-radius: 10px;
+  width: 50px;
+  text-align: center;
+}
+
+.delete{
+  background: red;
+}
