@@ -37,12 +37,12 @@ input {
 
 #newtaskinput{
   width: 100%;
-border-radius: 1rem;
-padding: 1rem;
-margin-right: 1rem;
-font-family: 1.25rem;
-background: rgb(56, 45, 45);
-color: aliceblue;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-right: 1rem;
+  font-family: 1.25rem;
+  background: rgb(56, 45, 45);
+  color: aliceblue;
 }
 
 #sunbmitbtn{
@@ -69,12 +69,6 @@ main{
 
 }
 
-task-list h2{
-  font-size: 1.5rem;
-  font-weight: 300;
-  color: gray;
-  margin-bottom: 1rem;
-}
 
 
 #tasks .task{
