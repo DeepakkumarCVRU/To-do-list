@@ -36,8 +36,7 @@ input {
 }
 
 #newtaskinput{
-  flex: 1 1 0%;
-
+  width: 100%;
 border-radius: 1rem;
 padding: 1rem;
 margin-right: 1rem;
@@ -58,7 +57,7 @@ color: aliceblue;
 }
 
 main{
-  flex: 1 1 0%;
+ 
   padding: 2rem 2rem;
   max-width: 800px;
   width: 100%;
